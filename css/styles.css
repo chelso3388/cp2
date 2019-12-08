@@ -5,7 +5,7 @@ background: #8FBC8F;
 }
 
 #quiz {
-  margin-left: 10px;
+  margin-left: 50px;
   background: #8FBC8F;
   float: left;
   color: #black;
@@ -23,6 +23,7 @@ h2 {
 h3 {
   font-size: 20pt;
   font-family:monospace;
+  margin-left: 450px;
 }
 
 h1 {
@@ -33,6 +34,7 @@ h1 {
 p {
   font-size: 25pt;
   font-family:monospace;
+  margin-left: 450px;
 }
 
 .header{
@@ -40,4 +42,10 @@ p {
   font-family:sans-serif;
   margin-left: 200px;
 
+}
+
+h5 {
+  font-size: 20pt;
+  font-family:monospace;
+  margin-left: 600px;
 }
