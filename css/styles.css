@@ -1,51 +1,41 @@
 body {
-  font-family: sans-serif;
-font-size: 15pt;
-background: #8FBC8F;
+	font-family: sans-serif;
+	font-size: 15pt;
+	background: #8FBC8F;
 }
-
 #quiz {
-  margin-left: 50px;
-  background: #8FBC8F;
-  float: left;
-  color: #black;
-
+	margin-left: 50px;
+	background: #8FBC8F;
+	float: left;
+	color: #black;
 }
-
 h2 {
-  font-size: 25pt;
+	font-size: 25pt;
 }
-
 #wrapper {
-  font-size: 12pt;
+	font-size: 12pt;
 }
-
 h3 {
-  font-size: 20pt;
-  font-family:monospace;
-  margin-left: 450px;
+	font-size: 20pt;
+	font-family: monospace;
+	margin-left: 450px;
 }
-
 h1 {
-  font-size: 60pt;
-  font-family:monospace;
+	font-size: 60pt;
+	font-family: monospace;
 }
-
 p {
-  font-size: 25pt;
-  font-family:monospace;
-  margin-left: 450px;
+	font-size: 25pt;
+	font-family: monospace;
+	margin-left: 450px;
 }
-
-.header{
-  font-size: 60pt;
-  font-family:sans-serif;
-  margin-left: 200px;
-
+.header {
+	font-size: 60pt;
+	font-family: sans-serif;
+	margin-left: 200px;
 }
-
 h5 {
-  font-size: 20pt;
-  font-family:monospace;
-  margin-left: 600px;
+	font-size: 20pt;
+	font-family: monospace;
+	margin-left: 600px;
 }

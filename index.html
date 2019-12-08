@@ -1,113 +1,50 @@
 <!DOCTYPE html>
 <html>
 <head>
-  <link href="css/bootstrap.css" rel="stylesheet" type="text/css">
-    <link href="css/styles.css" rel="stylesheet" type="text/css">
-    <script src="js/jquery-3.4.1.js"></script>
-    <script src="js/scripts.js"></script>
-    <title>Programming Language Quiz</title>
-  </head>
-  <body>
-    <div class="header">
+	<link href="css/bootstrap.css" rel="stylesheet" type="text/css">
+	<link href="css/styles.css" rel="stylesheet" type="text/css">
+	<script src="js/jquery-3.4.1.js">
+	</script>
+	<script src="js/scripts.js">
+	</script>
+	<title>Programming Language Quiz</title>
+</head>
+<body>
+	<div class="header">
 		<h4><em>Programming Language Survey</em></h4>
 	</div>
-
-<h5>Select the correct answer</h5>
-
-<div id="wrapper">
-  <h3>What Programming Language should you learn?</h3>
-  <p><b>Take this questionnaire to find out!</b></p>
-  <form id="quiz" name ="quiz">
-
-    <h2>What Color are Bananas?</h2>
-
-    <label><input type="radio" name="q1" value="c1">
-      Blue
-    </label><br />
-    <label><input type="radio" name="q1" value="c2">
-      Purple
-    </label><br />
-    <label><input type="radio" name="q1" value="c3">
-      Yellow
-    </label><br />
-    <label><input type="radio" name="q1" value="c4">
-      Orange
-    </label><br />
-
-
-    <h2>What state only borders one state?</h2>
-
-    <label><input type="radio" name="q2" value="c1">
-      New York
-    </label><br />
-    <label><input type="radio" name="q2" value="c2">
-      Hawaii
-    </label><br />
-    <label><input type="radio" name="q2" value="c3">
-      Maine
-    </label><br />
-    <label><input type="radio" name="q2" value="c4">
-      Alaska
-    </label><br />
-
-    <h2>What Programming Language is named after Coffee?</h2>
-
-        <label><input type="radio" name="q3" value="c1">
-          Ruby
-        </label><br />
-        <label><input type="radio" name="q3" value="c2">
-          JavaScript
-        </label><br />
-        <label><input type="radio" name="q3" value="c3">
-          Swift
-        </label><br />
-        <label><input type="radio" name="q3" value="c4">
-          Java
-        </label><br />
-
-
-        <h2>What nut is a member of the Peach family?</h2>
-
-        <label><input type="radio" name="q4" value="c1">
-          Almond
-        </label><br />
-        <label><input type="radio" name="q4" value="c2">
-          Peanuts
-        </label><br />
-        <label><input type="radio" name="q4" value="c3">
-          Walnuts
-        </label><br />
-        <label><input type="radio" name="q4" value="c4">
-          Pistachio
-        </label><br />
-
-        <h2>Where was Hawaiian pizza invented?</h2>
-
-        <label><input type="radio" name="q5" value="c1">
-          Middle-Earth
-        </label><br />
-        <label><input type="radio" name="q5" value="c2">
-          Canada
-        </label><br />
-        <label><input type="radio" name="q5" value="c3">
-          England
-        </label><br />
-        <label><input type="radio" name="q5" value="c4">
-          Hawaii
-        </label><br />
-
-
-
-<input id ="button" type="button" value="I'm finished" onclick="check();">
-<div id="after_submit">Your result will show up here!</div>
-<p id ="message"></p>
-<p id = "number_correct"></p>
-</form>
-
-
-
-
-
-
-</div>
+	<h5>Select the correct answer</h5>
+	<div id="wrapper">
+		<h3>What Programming Language should you learn?</h3>
+		<p><b>Take this questionnaire to find out!</b></p>
+		<form id="quiz" name="quiz">
+			<h2>What Color are Bananas?</h2><label><input name="q1" type="radio" value="c1"> Blue</label><br>
+			<label><input name="q1" type="radio" value="c2"> Purple</label><br>
+			<label><input name="q1" type="radio" value="c3"> Yellow</label><br>
+			<label><input name="q1" type="radio" value="c4"> Orange</label><br>
+			<h2>What state only borders one state?</h2><label><input name="q2" type="radio" value="c1"> New York</label><br>
+			<label><input name="q2" type="radio" value="c2"> Hawaii</label><br>
+			<label><input name="q2" type="radio" value="c3"> Maine</label><br>
+			<label><input name="q2" type="radio" value="c4"> Alaska</label><br>
+			<h2>What Programming Language is named after Coffee?</h2><label><input name="q3" type="radio" value="c1"> Ruby</label><br>
+			<label><input name="q3" type="radio" value="c2"> JavaScript</label><br>
+			<label><input name="q3" type="radio" value="c3"> Swift</label><br>
+			<label><input name="q3" type="radio" value="c4"> Java</label><br>
+			<h2>What nut is a member of the Peach family?</h2><label><input name="q4" type="radio" value="c1"> Almond</label><br>
+			<label><input name="q4" type="radio" value="c2"> Peanuts</label><br>
+			<label><input name="q4" type="radio" value="c3"> Walnuts</label><br>
+			<label><input name="q4" type="radio" value="c4"> Pistachio</label><br>
+			<h2>Where was Hawaiian pizza invented?</h2><label><input name="q5" type="radio" value="c1"> Middle-Earth</label><br>
+			<label><input name="q5" type="radio" value="c2"> Canada</label><br>
+			<label><input name="q5" type="radio" value="c3"> England</label><br>
+			<label><input name="q5" type="radio" value="c4"> Hawaii</label><br>
+			<input id="button" onclick="check();" type="button" value="I'm finished">
+			<div id="after_submit">
+				Your result will show up here!
+			</div>
+			<p id="message"></p>
+			<p id="number_correct"></p>
+		</form>
+	</div>
+</body>
 </html>
