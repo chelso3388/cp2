@@ -1,3 +1,15 @@
+
+$(document).ready(function() {
+  var age = parseInt(prompt("How old are you?"));
+
+  if (age >= 25) {
+    $('#quiz').show();
+  } else {
+    $('#under-21').show();
+  }
+});
+
+
 function check() {
 	var q1 = document.quiz.q1.value;
 	var q2 = document.quiz.q2.value;
