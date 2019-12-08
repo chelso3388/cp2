@@ -32,7 +32,7 @@ function check() {
 	if (q5 == "c2") {
 		correct++;
 	}
-	var messages = ["JavaScript", "Ruby", "C#"];
+	var messages = ["You should learn JavaScript - It enables interactive web pages and thus is an essential part of web application", "You should learn Ruby - Ruby has built in support for Rational numbers and Complex numbers, which helps in solving complex mathematical problems.", "You should learn C# - C# is good for developing games"];
 	var range;
 	if (correct < 1) {
 		range = 0;
