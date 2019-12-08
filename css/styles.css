@@ -1,12 +1,15 @@
 body {
   font-family: sans-serif;
 font-size: 15pt;
+background: #8FBC8F;
 }
 
 #quiz {
   margin-left: 10px;
-  background: grey;
+  background: #8FBC8F;
   float: left;
+  color: #black;
+
 }
 
 h2 {
