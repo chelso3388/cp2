@@ -14,3 +14,46 @@
 <div id="wrapper">
   <h1>What Programming Language should you learn?</h1>
   <p>Take this questionnaire to find out!</p>
+  <form id="quiz">
+
+    <h2>What Color are Bananas?</h2>
+
+    <label><input type="radio" name="q1" value="c1">
+      Blue
+    </label><br />
+    <label><input type="radio" name="q1" value="c2">
+      Purple
+    </label><br />
+    <label><input type="radio" name="q1" value="c3">
+      Yellow
+    </label><br />
+    <label><input type="radio" name="q1" value="c4">
+      Orange
+    </label><br />
+
+
+    <h2>What state only borders one state?</h2>
+
+    <label><input type="radio" name="q2" value="c1">
+      New York
+    </label><br />
+    <label><input type="radio" name="q2" value="c2">
+      Hawaii
+    </label><br />
+    <label><input type="radio" name="q2" value="c3">
+      Maine
+    </label><br />
+    <label><input type="radio" name="q2" value="c4">
+      Alaska
+    </label><br />
+
+
+
+
+    <button type="submit" id="submit" onclick="tabulateAnswers()">Submit Your Answers</button>
+  <button type="reset" id="reset" onclick="resetAnswer()">Reset</button>
+  </form>
+
+
+  <div id="answer">Your result will show up here!</div>
+</div>
