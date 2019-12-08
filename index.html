@@ -14,7 +14,7 @@
 <div id="wrapper">
   <h1>What Programming Language should you learn?</h1>
   <p>Take this questionnaire to find out!</p>
-  <form id="quiz">
+  <form id="quiz" name ="quiz">
 
     <h2>What Color are Bananas?</h2>
 
@@ -95,10 +95,12 @@
 
 
 
-    <button type="submit" id="submit" onclick="tabulateAnswers()">Submit Your Answers</button>
-  <button type="reset" id="reset" onclick="resetAnswer()">Reset</button>
-  </form>
+<input id ="button" type="button" value="I'm finished" onclick="check();">
+</form>
 
 
-  <div id="answer">Your result will show up here!</div>
+
+
+  <div id="after_submit">Your result will show up here!</div>
+  <p id = "number_correct"></p>
 </div>
