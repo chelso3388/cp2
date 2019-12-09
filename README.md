@@ -2,8 +2,8 @@
 
 ## Project Overview
 To create a website that will suggest different programming languages by asking questions and using the answers to give a result.  
--Include a minimum of 5 surgery questions.
--Offer a minimum of 3 different language suggestions.
+*Include a minimum of 5 surgery questions.
+*Offer a minimum of 3 different language suggestions.
 
 
 ## Installation Instructions
