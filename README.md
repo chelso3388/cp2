@@ -2,8 +2,8 @@
 
 ## Project Overview
 To create a website that will suggest different programming languages by asking questions and using the answers to give a result.  
-*Include a minimum of 5 surgery questions.
-*Offer a minimum of 3 different language suggestions.
+* Include a minimum of 5 surgery questions.
+* Offer a minimum of 3 different language suggestions.
 
 
 ## Installation Instructions
@@ -15,12 +15,12 @@ To create a website that will suggest different programming languages by asking 
 5. Press Enter. Your local clone will be created.
 
 ### File list
--index.html
--js folder
--css folder
--bootstraps-3.4.1-dist
--jquery-3.4.1.js
--README
+- index.html
+- js folder
+- css folder
+- bootstraps-3.4.1-dist
+- jquery-3.4.1.js
+- README
 
 #### Contact Information
 Chelsea Gifford
